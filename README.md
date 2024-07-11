@@ -1,6 +1,6 @@
-# Learn RTK structure and dataflow
+# Learn RTK async operations with thunk
 
-### https://www.youtube.com/watch?v=hI-VgEaCMyQ&t=466s
+### https://www.youtube.com/watch?v=93CR_yURoII
 
 <p>Sample:</p>
 
@@ -9,5 +9,6 @@
 <h5>Used API`s and libraries:</h5>
 <ul>
 <li>https://www.npmjs.com/package/date-fns</li>
-<li>nanoid from '@reduxjs/toolkit'</li>
+<li>https://www.npmjs.com/package/axios</li>
+<li>https://www.npmjs.com/package/nanoid</li>
 </ul>
