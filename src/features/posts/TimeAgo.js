@@ -1,15 +1,15 @@
 import { parseISO, formatDistanceToNow } from 'date-fns';
 
-const TimeAgo = ({ timeStamp }) => {
+const TimeAgo = ({ timestamp }) => {
   let timeAgo = '';
-  if (timeStamp) {
-    const date = parseISO(timeStamp);
+  if (timestamp) {
+    const date = parseISO(timestamp);
     const timePeriod = formatDistanceToNow(date);
     timeAgo = `${timePeriod} ago`;
   }
 
   return (
-    <span title={timeStamp}>
+    <span title={timestamp}>
       &nbsp; <i>{timeAgo}</i>
     </span>
   );
