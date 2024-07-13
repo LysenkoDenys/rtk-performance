@@ -1,11 +1,11 @@
 import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from 'react';
 import {
   selectAllPosts,
   getPostsStatus,
   getPostsError,
   fetchPosts,
 } from './postsSlice';
-import { useEffect } from 'react';
 import PostsExcerpt from './PostsExcerpt';
 
 const PostsList = () => {
@@ -23,11 +23,12 @@ const PostsList = () => {
 
   let content;
   if (postStatus === 'loading') {
-    content = <p>'Loading...'</p>;
+    content = <p>Loading...</p>;
   } else if (postStatus === 'succeeded') {
+    console.log(posts); //
     const orderedPosts = posts
       .slice()
-      .sort((a, b) => b.date.locateCompare(a.date));
+      .sort((a, b) => b.date.localeCompare(a.date));
     content = orderedPosts.map((post) => (
       <PostsExcerpt key={post.id} post={post} />
     ));

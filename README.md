@@ -2,9 +2,11 @@
 
 ### https://www.youtube.com/watch?v=93CR_yURoII
 
+<p>We are fetching the data of posts from an API</p>
+
 <p>Sample:</p>
 
-![952](https://github.com/LysenkoDenys/rtk-structure-and-dataflow/assets/105970854/c5fcd834-4bb9-40fe-a379-3371cab580e9)
+![rftg](https://github.com/user-attachments/assets/cb96b1a5-68bc-4346-938f-93e3f55309c5)
 
 <h5>Used API`s and libraries:</h5>
 <ul>
