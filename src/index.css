@@ -141,6 +141,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 nav a,
@@ -168,6 +169,7 @@ article {
   border: 1px solid #000;
   border-radius: 10px;
   padding: 1em;
+  box-shadow: 3px 3px 3px rgba(46, 38, 38, 50%);
 }
 
 h1 {
@@ -176,6 +178,8 @@ h1 {
 
 h2 {
   margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 p {
@@ -192,6 +196,10 @@ form {
 
 textarea {
   height: 200px;
+  border-radius: 5px;
+  padding: 20px;
+  border: solid rgb(158, 156, 156);
+  font-size: 1.2rem;
 }
 
 .postCredit {
@@ -219,9 +227,27 @@ textarea {
   border: none;
   color: #000;
   font-size: 1rem;
+  padding: 3px;
 }
 
 .deleteButton {
   background-color: palevioletred;
   color: white;
+}
+
+a {
+  text-decoration: underline;
+}
+
+button {
+  background-color: rgb(188, 174, 174);
+  box-shadow: 3px 3px 3px rgba(46, 38, 38, 50%);
+  border-radius: 5px;
+}
+
+.edit-section {
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px rgba(46, 38, 38, 50%);
+  background-color: rgb(224, 216, 206);
 }
