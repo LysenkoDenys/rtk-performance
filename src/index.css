@@ -251,3 +251,7 @@ button {
   box-shadow: 3px 3px 3px rgba(46, 38, 38, 50%);
   background-color: rgb(224, 216, 206);
 }
+
+.btn-counter {
+  padding: 2px 15px;
+}
